@@ -1,6 +1,6 @@
 <template>
     <div>
-        <span>{{username}}</span>
+        <h2>用户：{{username}}，你好！</h2>
         <h2>
             Vue To Do List
             Simple Todo List with adding and filter by diff status.

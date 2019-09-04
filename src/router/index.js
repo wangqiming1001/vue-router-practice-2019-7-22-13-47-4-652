@@ -21,7 +21,8 @@ export default new Router({
     {
       path: '/todoList/:username',
       name: 'todoList',
-      component:ListPage
+      component:ListPage,
+      props:true
     },
     {
       path: '/callBack',

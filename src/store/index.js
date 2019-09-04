@@ -40,10 +40,8 @@ export default {
         addToDo:function(state,request){
             state.todoList = request;
         },
-        loading:function(){
-            
+        loading:function(){   
         }
-
 
     },
     actions:{
